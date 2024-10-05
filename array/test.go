@@ -36,3 +36,9 @@ func TestInsertionSort() {
 
 	fmt.Println(sorted)
 }
+
+func TestZerosInit() {
+	list := []int{0, 5, 0, 8, 0, 0, 0, 0, 0, 1, 4, 5, 1, 0, 0, 1, 0, 3, 0}
+	arr := zeros_init(list)
+	fmt.Println(arr)
+}

@@ -6,6 +6,6 @@ import (
 
 func main() {
 
-	array.TestInsertionSort()
+	array.TestZerosInit()
 
 }
