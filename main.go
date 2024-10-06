@@ -1,11 +1,9 @@
 package main
 
-import (
-	"learning_go/array"
-)
+import linkedList "learning_go/linked_list"
 
 func main() {
 
-	array.TestZerosInit()
+	linkedList.TestLinkedList()
 
 }
