@@ -2,18 +2,15 @@ package sort
 
 func partition(arr []int, low int, high int) int {
 	pivot := arr[high]
-	i := low - 1
-
+	i := low
 	for j := low; j < high; j++ {
-		if arr[j] <= pivot {
-			i = j + 1
+		if arr[j] < pivot {
 			arr[i], arr[j] = arr[j], arr[i]
+			i++
 		}
 	}
-
-	arr[i+1], arr[high] = arr[high], arr[i+1]
-
-	return i + 1
+	arr[i], arr[high] = arr[high], arr[i]
+	return i
 }
 
 func quick_sort(arr []int, low int, high int) {
