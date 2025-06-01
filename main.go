@@ -2,11 +2,11 @@ package main
 
 import (
 	_ "fmt"
-	"thirty_days_of_algorithms/thirty_days_of_algorithms/day2"
+	"thirty_days_of_algorithms/thirty_days_of_algorithms/day3"
 )
 
 func main() {
 
-	day2.StartTestDay2()
+	day3.StartTestDay3()
 
 }
