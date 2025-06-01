@@ -10,11 +10,8 @@ import (
 func StartTestDay3() {
 
 	arr := make([]int, 5)
-	arr[0] = 5
-	arr[1] = 3
-	arr[2] = 8
-	arr[3] = 4
-	arr[4] = 2
+
+	resetArr(arr)
 
 	result := bubbleSort(arr)
 
